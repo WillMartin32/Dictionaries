@@ -7,5 +7,5 @@ def main():
     outfile.write('Edmund Burke')
 
     outfile.close()
-
+    print()
 main()
