@@ -10,7 +10,7 @@ def main():
 def encrypting_security_info(codes):
     infile = open('info_security.txt' , 'r')
     file_contents = infile.read()
-    outfile = open('encrypted_philosophers.txt' , 'w')
+    outfile = open('encrypted_info_security.txt' , 'w')
 
     for x in file_contents:
         encrypt = codes[x]
